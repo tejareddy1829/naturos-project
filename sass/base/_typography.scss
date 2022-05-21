@@ -37,3 +37,24 @@ body{
     }
     
  }
+
+ .heading-secondary{
+     font-size: 3.5rem;
+     text-transform: uppercase;
+     font-weight: 700;
+     display: inline-block;
+     background-image: linear-gradient(to right, $colour-primary-light, $colour-primary-dark);
+     -webkit-background-clip: text;
+     background-clip: text;
+     color: transparent;
+     letter-spacing: .1rem;
+     transition: all .2s;
+     
+
+     &:hover{
+         transform: skewY(2deg) skewX(15deg) scale(1.1);
+         text-shadow: .5rem 1rem 2rem rgba($colour-black, .2);
+
+
+     }
+ }
