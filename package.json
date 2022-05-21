@@ -18,5 +18,8 @@
   "homepage": "https://github.com/tejareddy1829/naturos-project#readme",
   "devDependencies": {
     "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
   }
 }
