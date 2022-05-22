@@ -12,9 +12,8 @@ body{
 .heading-primary{
     text-transform: uppercase;
     color:$colour-white;
- 
     backface-visibility: hidden;
-    margin-bottom: 6rem;
+  
  
     &--main{
         display: block;
@@ -47,7 +46,7 @@ body{
      -webkit-background-clip: text;
      background-clip: text;
      color: transparent;
-     letter-spacing: .1rem;
+     letter-spacing: .2rem;
      transition: all .2s;
 
 
@@ -62,13 +61,14 @@ body{
  .heading-tertiary{
      font-size: $default-font-size;
      font-weight: 700;
-     text-transform: uppercase;  
+     text-transform: uppercase;
+    
 
  }
 
  .paragraph{
      font-size: $default-font-size;
-
+     
     &:not(:last-child) {
          margin-bottom: 3rem;
      }
