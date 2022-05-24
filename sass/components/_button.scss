@@ -34,7 +34,21 @@
        &::after{
             background-color:$colour-white;
        }
+       
     }
+
+     
+    &--green{
+        background-color:$colour-primary;
+        color:$colour-white;
+    
+       &::after{
+            background-color:$colour-primary;
+       }
+
+    }
+
+
     
     &::after{
          content: "";
