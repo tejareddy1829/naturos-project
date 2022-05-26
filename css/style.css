@@ -332,6 +332,25 @@ body {
   .feature-box:hover {
     transform: translateY(-1.5rem) scale(1.03); }
 
+.form__group:not(:last-child) {
+  margin-bottom: 2rem; }
+
+.form__input {
+  font-size: 1.5rem;
+  font-family: inherit;
+  padding: 1.5rem 2rem;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-bottom: 3px solid transparent;
+  width: 75%;
+  display: block; }
+
+.form__input:focus {
+  outline: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #55c57a; }
+
 .story {
   width: 75%;
   margin: 0 auto;
@@ -459,4 +478,4 @@ body {
   height: 50rem; }
   .book__form {
     width: 50%;
-    padding: 6rem; }
+    padding: 2rem 4rem; }
