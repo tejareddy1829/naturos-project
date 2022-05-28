@@ -110,6 +110,9 @@ body {
 .u-margin-top-small {
   margin-top: 6rem; }
 
+.u-margin-top-tiny {
+  margin-top: .5rem; }
+
 .u-margin-top-huge {
   margin-top: 10rem; }
 
@@ -409,6 +412,43 @@ body {
 
 .form__radio-input:checked ~ .form__radio-label .form__radio-button::after {
   opacity: 1; }
+
+.popup {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 3000; }
+  .popup__content {
+    width: 75%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 3px;
+    display: table;
+    overflow: hidden; }
+  .popup__left {
+    width: 33.333333%;
+    display: table-cell; }
+  .popup__right {
+    width: 66.666667%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 2rem 4rem; }
+  .popup__img {
+    display: block;
+    width: 100%; }
+  .popup__text {
+    font-size: 1.4rem;
+    margin-bottom: 3rem;
+    column-count: 2;
+    column-gap: 4rem;
+    column-rule: 2px solid #eee;
+    hyphens: auto; }
 
 .story {
   width: 75%;
