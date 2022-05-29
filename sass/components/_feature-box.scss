@@ -6,6 +6,10 @@
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba($colour-black, .15);
     transition: transform .3s;
+
+    @include respond(tab-port) {
+        padding: 2rem;
+    }
   
    
 
@@ -17,6 +21,11 @@
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
+
+        
+    @include respond(tab-port) {
+       margin: 0;
+    }
 
     }
 
